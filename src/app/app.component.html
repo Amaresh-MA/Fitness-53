@@ -1,0 +1,58 @@
+<html>
+<body >
+  <header class="banner">
+      <h1> FITNESS-53 GYM 
+      <img src="../assets/Images/giphy.gif" alt="no image" width=100px height="100px"></h1>
+        
+    </header>
+
+      
+      <ul class="nav nav-tabs justify-content-end" role="tablist">
+
+ <!--search bar -->
+        <div class="wrap" >
+            <div id="z" class="search">
+               <input type="text" class="searchTerm" placeholder="search..">
+               <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
+
+
+          <li class="nav-item">
+            
+              <a class="active"  routerLink='./home'><i class="fas fa-home"></i>  HOME</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link"  routerLink='./contactus'><i class="fas fa-mobile-alt"></i>  CONTACT US</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" routerLink='./aboutus'><i class="fas fa-address-card"></i>  ABOUT US</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink='./buyproducts'><i class="fas fa-shopping-cart"></i>  BUY PRODUCTS</a>
+        </li>
+
+          <li class="nav-item">
+              <a class="nav-link" routerLink='./help'><i class="fas fa-comments"></i>  HELP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink='./signin'><i class="fas fa-sign-in-alt"></i>  Sign in</a>
+        </li>
+      </ul>
+
+    
+       
+    
+      
+      
+      <router-outlet></router-outlet>
+</body>
+</html>
+  
+<div>
+    <app-footer></app-footer>
+
+</div>
